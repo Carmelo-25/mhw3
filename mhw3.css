@@ -1,0 +1,482 @@
+body{
+  background-color: white;
+  margin: 0;
+
+}
+
+nav{
+  height: 100px;
+  
+}
+
+.barra{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 20px;
+
+  position: fixed; 
+  right: 0px;
+  left: 0px;
+
+}
+
+
+.menu img{
+  width: auto;
+  height: 50px;
+
+}
+
+.home img{
+  width: auto;
+  height: 40px;
+}
+
+.bar{
+  margin-right: 20px;
+  font-family: Arial;
+  font-size: x-small;
+
+}
+
+.logo{
+  margin-top: 5px;
+  height: 90px;
+  width: auto;
+
+}
+
+.navigation{
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+
+}
+
+.icone{
+  display: none;
+  align-items: center;
+  justify-content: space-between;
+  
+  font-family: Arial;
+  font-size: x-small;
+}
+
+.icone img{
+  width: 15px;
+  height: auto;
+  margin: 0px 10px;
+
+}
+
+
+header{
+  background-size: cover;
+  background-position: center;
+  margin: 0px 80px;
+
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 80px;
+
+}
+
+#menu_lista {
+  display: none;
+  padding: 20px;
+  position: fixed;
+  top: 100px;
+  left: 0;
+  width: auto;
+  height: 100%;
+  background: white;
+  z-index: 10;
+}
+
+#menu_lista li {
+  list-style: none;
+  font-family: Arial;
+  font-size: small;
+  padding: 10px;
+}
+
+#menu_lista li:hover {
+  background-color: whitesmoke;
+}
+
+div.im1{
+  background-image: url("foto/foto2.png");
+  background-size: cover;
+  background-position: center;
+  margin: 30px 80px;
+  height: 400px;
+}
+
+div.im2{
+  display: flex;
+  justify-content: space-between;
+  margin: 30px 80px;
+}
+
+div.f1{
+  background-image: url("foto/foto4.png");
+  background-size: cover;
+  background-position: center;
+  height: 400px;
+  width: 48%;
+}
+
+div.f2{
+  background-image: url("foto/foto5.png");
+  background-size: cover;
+  background-position: center;
+  height: 400px;
+  width: 48%;
+}
+
+div.im3{
+  background-image: url("foto/foto3.png");
+  background-size: cover;
+  background-position: center;
+  margin: 30px 80px;
+  height: 400px;
+}
+
+div.im4{
+  background-image: url("foto/foto6.png");
+  background-size: cover;
+  background-position: center;
+  margin: 30px 80px;
+  height: 400px;
+}
+
+div.MAN_WOMAN{
+  display: flex;
+  justify-content: space-between;
+  margin: 30px 80px;
+
+}
+
+
+div.f_man1{
+  background-image: url("foto/Uomo1.png");
+  background-size: contain;
+  background-position: top;
+  background-repeat: no-repeat;
+  height: 500px;
+  width: 48%;
+}
+
+div.f_man2{
+  background-image: url("foto/Uomo2.png");
+  background-size: contain;
+  background-position: top;
+  background-repeat: no-repeat;
+  height: 500px;
+  width: 48%;
+}
+
+div.f_woman1{
+  background-image: url("foto/Donna1.png");
+  background-size: contain;
+  background-position: top;
+  background-repeat: no-repeat;
+  height: 500px;
+  width: 48%;
+}
+
+div.f_woman2{
+  background-image: url("foto/Donna2.png");
+  background-size: contain;
+  background-position: top;
+  background-repeat: no-repeat;
+  height: 500px;
+  width: 48%;
+}
+
+div.articolo{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  width: 48%;
+}
+
+#product{
+  display: flex;
+  flex-direction: column;
+  font-family: Arial;
+  height: auto;
+  width: auto;
+}
+
+#prod_pref{
+  display: flex;
+  justify-content: space-between;
+}
+
+
+#prod_pref img{ 
+  display: inline-block;
+  height: 25px;
+  width: auto;
+  margin: 0px 10px;
+}
+
+.prefe{
+  display: none;
+  justify-content: center;
+  border-bottom: 1px solid black;
+}
+
+#prod_pref img:hover{
+  opacity: 0.8 ;
+}
+
+div.prodotto{
+  display: flex;
+  font-family: Arial;
+  height: auto;
+
+}
+
+.line{
+  margin-top: 40px;
+  border: 0.1px solid black;
+  width: 100%;
+}
+
+div.carrello{
+  border: 0.5px solid black;
+  margin: 50px 0px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: arial;
+  font-size: small;
+
+}
+
+div.carrello:hover {
+  background-color: whitesmoke;
+}
+
+div.aggiunto{
+  border: 0.5px solid black;
+  margin: 50px 0px;
+  height: 40px;
+  display: none;
+  justify-content: center;
+  align-items: center;
+  font-family: arial;
+  font-size: small;
+
+}
+
+div.aggiunto:hover {
+  background-color: whitesmoke;
+}
+
+#description{
+  display: flex;
+  flex-direction: column;
+  font-family: Arial;
+  height: auto;
+}
+
+div.descrizione{
+  font-family: Arial;
+  font-size: small;
+  margin-bottom: 10px;
+}
+ 
+em{
+  display: flex;
+  font-family: Arial; 
+  font-size: x-small;
+  color: gray;
+  margin-top: 5px;
+  margin-left: 10px;
+
+}
+
+footer{
+  height: 400px;
+  
+}
+
+div.news{
+  margin-top: 70px;
+  font-family: Arial;
+  font-size: x-small;
+  display: flex;
+  justify-content: center;
+
+}
+
+div.social{
+  height: 65px;
+  margin: 20px 120px;
+  font-family: Arial;
+  font-size: x-small;
+  display: flex;
+  justify-content: space-between;  
+
+}
+
+a{
+  text-decoration: none;
+  color: black;
+}
+
+div.accessibilità{
+  height: 200px;
+  margin: 40px 120px;
+  font-family: Arial;
+  font-size: small;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;  
+  
+}
+
+div.music, p {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+  font-family: Arial;
+  font-size: small;
+}
+
+.album-img {
+  margin-top: 10px;
+  max-width: 150px;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0 0 5px rgba(0,0,0,0.2);
+}
+
+div.sedi{
+  display: flex;
+  justify-content: flex-start;
+  font-family: Arial;
+  font-size: x-small;
+
+  margin-left: 20px;
+}
+
+#b-acc {
+  height: 35px;
+  width: 35px;
+  background-image: url(icone/accessibility.png); 
+  background-size: cover;
+  background-position: center;
+  
+  position: fixed;
+  bottom: 50px;
+  right: 0px;
+}
+
+#servizio_chat{
+  position: fixed;
+  bottom: 100px;
+  right: 0px;
+
+  border: 0.3px solid whitesmoke;
+  background-color: white;
+  height: 35px;
+  width: 90px;
+  display: flex;
+  justify-content: space-around;
+}
+
+#servizio_chat:hover{
+  border-bottom: 1px solid black;
+}
+
+
+
+#chat{
+  width: 30px;
+  height: 30px;
+  background-image: url(icone/chat.png);
+  background-size: cover;
+  background-position: center;
+}
+
+.serv{
+  font-family: Arial;
+  font-size: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-right: 10px;
+}
+
+#box_cerca{
+  display: none;
+  width: 120px;
+  padding: 5px;
+  font-size: 14px;
+  border: none;
+  border-bottom: 1px solid black;
+  outline: none;
+  background: transparent;
+}
+
+#box_icona_cerca{
+  display: none;
+  width: 80px;
+  padding: 5px;
+  font-size: 14px;
+  border: none;
+  border-bottom: 1px solid black;
+  outline: none;
+  background: transparent;
+}
+
+
+@media (max-width: 600px) {
+  
+  header,div.im1, div.im2, div.im3, div.im4 {
+    margin: 10px 20px; 
+  }
+}
+
+@media (max-width: 670px) {
+
+  .bar{
+    margin: 5px 0px;
+  }
+
+  .menu img, .home img{
+  height: 30px;
+  }
+
+
+  .navigation{
+    display: none;
+
+  }
+
+  .icone{
+    display: flex;
+    justify-content: center;
+  }
+
+}
+
+@media (max-width: 837px) {
+  
+  div.social, div.accessibilità{
+    font-size: xx-small;
+    margin:20px 50px; 
+  }
+}
+
+  
